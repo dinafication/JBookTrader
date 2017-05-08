@@ -38,11 +38,11 @@ public class MainFrameDialog extends JFrame implements ModelListener {
         toolkit = Toolkit.getDefaultToolkit();
         init();
         populateStrategies();
-        PreferencesHolder prefs = PreferencesHolder.getInstance();
-        int width = prefs.getInt(MainWindowWidth);
-        int height = prefs.getInt(MainWindowHeight);
+        //PreferencesHolder prefs = PreferencesHolder.getInstance();
+        //int width = prefs.getInt(MainWindowWidth);
+        //int height = prefs.getInt(MainWindowHeight);
         pack();
-        setSize(width, height);
+        setSize(200, 200);
         setLocationRelativeTo(null);
         setVisible(true);
     }
